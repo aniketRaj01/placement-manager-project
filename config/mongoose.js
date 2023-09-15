@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 //sets up the mongodb cloud url
-MongoURL = "mongodb+srv://freeuse:freeuse@cluster0.jkjla.mongodb.net/?retryWrites=true&w=majority";
+MongoURL = process.env.MONGO_URL;
 
 //connect to app to mongodb
 mongoose.connect(MongoURL)

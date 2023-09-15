@@ -33,7 +33,7 @@ app.use(
     },
     store: MongoStore.create(
       {
-        mongoUrl: "mongodb+srv://freeuse:freeuse@cluster0.jkjla.mongodb.net/?retryWrites=true&w=majority",
+        mongoUrl: process.env.MONGO_URL,
         autoRemove: "disabled",
       },
       function (err) {
