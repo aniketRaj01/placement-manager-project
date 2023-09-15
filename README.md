@@ -1,6 +1,6 @@
 ## Getting Started
 -  <b> 1. &nbsp; Clone Git Repo  </b>
-    <br>git clone https://github.com/aniketRaj01/placement-manager-project.git<br><br>
+    <br>git clone https://github.com/aniketRaj01/placement-manager-project.git <br><br>
 -  <b> 2.  &nbsp;Install NPM dependencies </b>
    <br>npm install<br><br>
 -  <b> 2.  &nbsp;Set Up .env file  </b>
